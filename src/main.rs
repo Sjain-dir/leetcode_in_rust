@@ -1,5 +1,6 @@
 mod Codes;
-use Codes::Median_of_Two_Sorted_Arrays;
+use Codes::Longest_Palindromic_Substring;
 fn main() {
-    println!( "Answer is {} " , Median_of_Two_Sorted_Arrays::find_median_sorted_arrays(vec![1,3], vec![2]) );
+    let s = String::from("b");
+    println!( "Answer is {} " ,  Longest_Palindromic_Substring::longest_palindrome(s));
 }
