@@ -1,6 +1,6 @@
 mod Codes;
-use Codes::Longest_Palindromic_Substring;
+use Codes::Zigzag_Conversion;
 fn main() {
-    let s = String::from("b");
-    println!( "Answer is {} " ,  Longest_Palindromic_Substring::longest_palindrome(s));
+    let s = String::from("PAYPALISHIRING");
+    println!( "Answer is {} " ,  Zigzag_Conversion::convert(s, 3));
 }
